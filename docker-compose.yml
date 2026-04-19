@@ -1,0 +1,6 @@
+services:
+  tomcat:
+    image: hacktifytechnologies/hacktify-tomcat:latest
+    container_name: hacktify-tomcat
+    ports:
+      - "8080:8080"
